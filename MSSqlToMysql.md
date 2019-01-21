@@ -3,6 +3,7 @@
 * 参考：[https://www.cnblogs.com/gaizai/p/3237907.html](https://www.cnblogs.com/gaizai/p/3237907.html)
 
 ## 遇到 MySQL 链接 1512 问题
+### 由于是新安装的 MySQL 8.0 
   
 * 用 Navicat（最新版）连接
     
