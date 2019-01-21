@@ -4,7 +4,7 @@
 
 ## 遇到 MySQL 链接 1512 问题
   
-* 用 Navicat（最新版） 链接
+* 用 Navicat（最新版）连接
     
       ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER; #修改加密规则 
       # password 改成实际密码
