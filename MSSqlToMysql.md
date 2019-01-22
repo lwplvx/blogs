@@ -1,5 +1,5 @@
 # MSSQL 迁移至 Mysql 记录
-## 此文章介绍的方法 不好用，改用下面 Navicat 传输的方式尝试
+*此文章介绍的方法 不好用，改用下面 Navicat 传输的方式尝试*
 
 * 参考：[https://www.cnblogs.com/gaizai/p/3237907.html](https://www.cnblogs.com/gaizai/p/3237907.html)
 
@@ -16,6 +16,7 @@
 * 参考：[https://blog.csdn.net/qq_36068954/article/details/80175755](https://blog.csdn.net/qq_36068954/article/details/80175755)
 
 # Navicat 传输的方式尝试
+*数据库创建和数据传输已经成功*
 
 * 添加目标Mysql 链接
 * 添加源 MSSQL 数据库链接
