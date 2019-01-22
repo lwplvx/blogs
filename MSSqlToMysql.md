@@ -1,4 +1,5 @@
 # MSSQL 迁移至 Mysql 记录
+## 此文章介绍的方法 不好用，改用下面 Navicat 传输的方式尝试
 
 * 参考：[https://www.cnblogs.com/gaizai/p/3237907.html](https://www.cnblogs.com/gaizai/p/3237907.html)
 
@@ -13,3 +14,10 @@
       FLUSH PRIVILEGES; #刷新权限
     
 * 参考：[https://blog.csdn.net/qq_36068954/article/details/80175755](https://blog.csdn.net/qq_36068954/article/details/80175755)
+
+# Navicat 传输的方式尝试
+
+* 添加目标Mysql 链接
+* 添加源 MSSQL 数据库链接
+* 选择 Tool-> Data Tranfer ,然后选择源，目标（可以指定新的数据库名称）
+* 已经成功，等我验证效果……（程序 EF 需要切换到 MySQL）
