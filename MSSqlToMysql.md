@@ -25,7 +25,7 @@
 * 选择 Tool-> Data Tranfer ,然后选择源，目标（可以指定新的数据库名称）
 * 已经成功，等我验证效果……（程序 EF 需要切换到 MySQL）
 
-#Azure Database for MySQL 服务器 相关问题
+# Azure Database for MySQL 服务器 相关问题
  
 * 默认字符集/字符序（数据库，数据表）
 * 手动更改了数据库字符集/字符序
@@ -37,6 +37,8 @@ AND a.DEFAULT_COLLATION_NAME!=b.TABLE_COLLATION
 AND b.TABLE_SCHEMA='zhdj71' 
 
 * 然后再用 navicat Tools->Data Transfer 重新同步数据
-* 试图处理，根据MSSQl 视图创建语句手动修改为适用于mysql 的语句（自己转换时保留脚本）
+
+# 视图 
+* 根据 MSSQl 视图创建语句手动修改为适用于 mysql 的语句（自己转换时保留脚本）
 
 
