@@ -35,6 +35,7 @@
 WHERE a.SCHEMA_NAME=b.TABLE_SCHEMA
 AND a.DEFAULT_COLLATION_NAME!=b.TABLE_COLLATION
 AND b.TABLE_SCHEMA='zhdj71' 
+  
   手动执行生成的语句
 
 * 然后再用 navicat Tools->Data Transfer 重新同步数据
