@@ -15,7 +15,9 @@
     
 * 参考：[https://blog.csdn.net/qq_36068954/article/details/80175755](https://blog.csdn.net/qq_36068954/article/details/80175755)
 
+
 # Navicat 传输的方式尝试
+##  注意注意：Mysql 数据库创建的时候选择正确的 字符集 和 字符序
 *数据库创建和数据传输已经成功*
 
 * 添加目标Mysql 链接
