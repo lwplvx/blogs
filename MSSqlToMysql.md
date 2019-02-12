@@ -26,7 +26,12 @@
 * 已经成功，等我验证效果……（程序 EF 需要切换到 MySQL）
 
 # Azure Database for MySQL 服务器 相关问题
- 
+
+1) 创建数据库服务后，首先在控制台修改字符集为：utf8mb4
+2) 然后创建数据库（character set: utf8mb4 ,collation: utf8mb4_general_ci）
+3) 用 navicat Tools->Data Transfer 重新同步数据
+4) 此步骤之后的方法忽略
+
 * 默认字符集/字符序（数据库，数据表）
 * 手动更改了数据库字符集/字符序
 * 利用语句生成了修改所有表字符集的语句，语句如下
