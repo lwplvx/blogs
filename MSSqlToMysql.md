@@ -46,6 +46,7 @@ AND b.TABLE_SCHEMA='zhdj71'
 * 然后再用 navicat Tools->Data Transfer 重新同步数据
 
 # 视图 
-* 根据 MSSQl 视图创建语句手动修改为适用于 mysql 的语句（自己转换时保留脚本）
-
+1) 根据 MSSQl 视图创建语句手动修改为适用于 mysql 的语句（自己转换时保留脚本）
+2) MySql 8.0 " OVER (PARTITION BY " 直接成功
+3) MySql 5.7 " OVER (PARTITION BY " 不行，？？？
 
