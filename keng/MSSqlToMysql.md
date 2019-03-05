@@ -52,5 +52,5 @@ AND b.TABLE_SCHEMA='zhdj71'
 
 # 应用程序迁移
  
-* https://stackoverflow.com/questions/6584093/conversion-from-microsoft-sql-server-to-mysql
+* [ 参考链接](https://stackoverflow.com/questions/6584093/conversion-from-microsoft-sql-server-to-mysql)
 
