@@ -7,9 +7,14 @@ lower_case_table_names = 1时，mysql会先把表名转为小写，再执行操�
 
 设置lower_case_table_names的值
 
-打开my.cnf文件，加入以下语句后重启。
-  
-  lower_case_table_names = 0 或 lower_case_table_names = 1
+进入docker的MySQL容器，编辑/etc/mysql/mysql.conf.d/mysqld.cnf文件，在[mysqld]下添加如下：
+
+[mysqld] 
+lower_case_table_names=1
+
+保存，退出容器；
+
+执行sudo docker restart MySQL-xxx ，重启MySQL即可查看： 
 
 ## docker 中不能用vim编辑文件
 
