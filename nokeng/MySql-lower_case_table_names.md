@@ -16,6 +16,11 @@ lower_case_table_names=1
 
 执行sudo docker restart MySQL-xxx ，重启MySQL即可查看： 
 
+查看当前mysql的大小写敏感配置
+show global variables like '%lower_case%';
+
+* 参考：[https://blog.csdn.net/wxuzero/article/details/79454216](https://blog.csdn.net/wxuzero/article/details/79454216)
+
 ## docker 中不能用vim编辑文件
 
 更新来源
