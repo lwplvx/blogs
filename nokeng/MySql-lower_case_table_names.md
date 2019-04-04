@@ -28,3 +28,8 @@ show global variables like '%lower_case%';
 
 安装vim
   apt-get install -y vim
+  
+
+## Docker 中MySql遇到 中文乱码问题
+
+在连接字符串加 ：Charset=utf8;
